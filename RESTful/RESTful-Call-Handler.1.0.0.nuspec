@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>RESTful.Handler</id>
+    <version>1.0.0</version>
+    <title>RESTful Call Handler</title>
+    <authors>Sagar Dahal</authors>
+    <owners>Sagar Dahal</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/chaosifier/RESTful-Request-Handler/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/chaosifier/RESTful-Request-Handler</projectUrl>
+    <iconUrl>http://sagardahal.info.np/images/sd.png</iconUrl>
+    <description>A helper for .NET platform that makes RESTful API calls easier than ever.</description>
+    <summary>RESTful API call handler for .net platform.</summary>
+    <releaseNotes>First release.</releaseNotes>
+    <language>en-US</language>
+    <tags>restful api call handler deserialize json auto</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="9.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\netstandard2.0\RESTful.dll" target="lib\netstandard2.0\RESTful.dll" />
+  </files>
+</package>
